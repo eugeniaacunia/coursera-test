@@ -1,0 +1,118 @@
+/* general style to all pag */
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;  /* yellow */
+  border-radius: 0;
+  border: 0;
+}
+
+/* nav styles */
+.navbar-brand {
+  padding: 10px;
+  height: 50px;
+}
+
+/* styles to main title */
+.navbar-brand h1 {  /* Food, LLC */
+font-family: 'Lora', serif;
+color: #557c3e;  
+font-size: 1.7em;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+margin-bottom:0;
+}
+
+/* button collapse style */
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f; 
+}
+
+.navbar-header button.navbar-toggle {
+  margin-top: 12px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  border: 1px solid #61122f;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/* END HEADER */
+
+/* HOME PAGE */
+/* style for "Our Menu" */
+h1 {
+  font-size: 1.7em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+  font-size: 1em;
+  padding: 15px;
+ }
+
+h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+ }
+
+.container-fluid{
+  color: #fff;
+  background-color: #61122f;
+  margin: 30px;
+  padding: 10px;
+}
+
+/* END HOME PAGE */
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    margin-left: 15px;
+    height: 60px;
+   }
+
+  .navbar-brand h1 { /* Food, LLC */
+    font-size: 1.73em;
+  }
+
+  /* row style */
+  .container-fluid{
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+} 
+
